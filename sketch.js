@@ -2,16 +2,17 @@
  * This program sketch is copied from Even Peck's example at
  * https://editor.p5js.org/evanpeck/sketches/O7MjzPFxb
  * This is from my own learning.
- * Xiannong Meng
- * 2022-06-25
+ * Connor Coles
+ * 2022-12-01
  *
  * Revisions
- * 1. 2022-06-28: added sound file loading and playing
- *    a. The Apollo launch audio file is downloaded from
- *    https://www.nasa.gov/62282main_countdown_launch.wav
+ * 1. 2022-12-01: added sound file loading and playing
+ *    a. The Magic wand audio file is downloaded from
+ *    https://pixabay.com/sound-effects/search/wand/
  *    which is then converted into mp3 format to be used here.
- * 2. 2022-06-28: added a textbox; check if any ball is colliding with the textbox.
- *    If so, the ball reverses the move direction.
+ * 2. 2022-12-01: added a 3D plane; created a Tourus in the middle.
+ * 3. 2022-12-01: Changed color to be more blue and green.
+ * 4. 2022-12-01: Removed text box
  */
 
 const BOX_WIDTH  = 200;  // textbox dimensions
