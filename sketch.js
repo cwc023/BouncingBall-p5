@@ -24,10 +24,10 @@ var testBall;
 
 function preload() {
 
-  sound = loadSound("magic-wand-6214.mp3");  // preload the sound file
+  sound = loadSound("magic-wand.mp3");  // preload the sound file
 }
 
-function setup() {
+function setup() {-
 
 //  createCanvas(windowWidth, windowHeight);
   createCanvas(600,400, WEBGL)
@@ -56,7 +56,6 @@ function setup() {
 
 function createBox() {
   // prepare a box first
-  
   strokeWeight(4);
   rect(100, 200, BOX_WIDTH, BOX_HEIGHT);
   
