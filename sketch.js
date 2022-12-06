@@ -24,7 +24,7 @@ var testBall;
 
 function preload() {
 
-  sound = loadSound("apollo11.mp3");  // preload the sound file
+  sound = loadSound("magic-wand-6214.mp3");  // preload the sound file
 }
 
 function setup() {
@@ -56,7 +56,7 @@ function setup() {
 
 function createBox() {
   // prepare a box first
-  lo
+  
   strokeWeight(4);
   rect(100, 200, BOX_WIDTH, BOX_HEIGHT);
   
